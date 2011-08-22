@@ -6,7 +6,7 @@
 Gem::Specification.new do |s|
   s.name = %q{activerecord-activesalesforce-adapter19}
   s.version = "3.0"
-
+  s.description = "1.9.2 compatible ActiveRecord adapter for the Salesforce.com API"
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Doug Chasman", "Luigi Montanez", "Senthil Nayagam", "Justin Ball", "Jesse Hallett", "Andrew Freeberg", "Brooke McKim"]
   s.date = %q{2011-08-19}
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
      "README",
      "Rakefile",
      "VERSION",
-     "activerecord-activesalesforce-adapter19.gemspec",
+     "activerecord-salesforce-adapter19.gemspec",
      "lib/active_record/connection_adapters/activesalesforce.rb",
      "lib/active_record/connection_adapters/activesalesforce_adapter.rb",
      "lib/active_record/connection_adapters/asf_active_record.rb",
