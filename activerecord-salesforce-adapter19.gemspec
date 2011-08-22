@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Doug Chasman", "Luigi Montanez", "Senthil Nayagam", "Justin Ball", "Jesse Hallett", "Andrew Freeberg", "Brooke McKim"]
   s.date = %q{2011-08-19}
-  s.email = %q{brooke.mckim@gmail.com}
+  s.email = %q{engineering@telvue.com}
   s.extra_rdoc_files = [
     "README"
   ]
@@ -62,7 +62,7 @@ Gem::Specification.new do |s|
      "test/unit/recorded_results/AsfUnitTestsBasicTest.test_use_update_mru.recording",
      "test/unit/recorded_test_case.rb"
   ]
-  s.homepage = %q{http://github.com/brookemckim/activerecord-salesforce-adapter19}
+  s.homepage = %q{http://github.com/telvue/activerecord-salesforce-adapter19}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
