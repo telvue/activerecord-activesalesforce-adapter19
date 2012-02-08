@@ -5,5 +5,6 @@ require 'rforce/soap_response_rexml'
 
 module RForce
   # Use the fastest XML parser available.
-  SoapResponse = RForce::const_get(:SoapResponseHpricot)
+  #SoapResponse = RForce::const_get(:SoapResponseHpricot)
+  SoapResponse = RForce::const_get(:SoapResponseRexml)
 end
